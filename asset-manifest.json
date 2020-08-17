@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robdnh.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/robdnh.github.io/static/js/main.032ff447.chunk.js",
+    "main.js.map": "/robdnh.github.io/static/js/main.032ff447.chunk.js.map",
+    "runtime-main.js": "/robdnh.github.io/static/js/runtime-main.1fce586a.js",
+    "runtime-main.js.map": "/robdnh.github.io/static/js/runtime-main.1fce586a.js.map",
+    "static/js/2.88df0c82.chunk.js": "/robdnh.github.io/static/js/2.88df0c82.chunk.js",
+    "static/js/2.88df0c82.chunk.js.map": "/robdnh.github.io/static/js/2.88df0c82.chunk.js.map",
+    "index.html": "/robdnh.github.io/index.html",
+    "precache-manifest.8a924bf971b95f428c3c481fa946e648.js": "/robdnh.github.io/precache-manifest.8a924bf971b95f428c3c481fa946e648.js",
+    "service-worker.js": "/robdnh.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/robdnh.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.88df0c82.chunk.js.LICENSE.txt": "/robdnh.github.io/static/js/2.88df0c82.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/robdnh.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fce586a.js",
+    "static/js/2.88df0c82.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.032ff447.chunk.js"
+  ]
+}
