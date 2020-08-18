@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { withRouter } from "react-router-dom";
+import Routes from "./Routes";
+import "./App.css";
+import { AmplifyAuthenticator, AmplifySignIn } from '@aws-amplify/ui-react';
+import { ViewportProvider } from './ViewportProvider';
+import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const authConfig = {
+  signInConfig: {
+    isSignUpDisplayed: false
+  }
+};
+
+function App(props) {
+
+
+  return(
+      <div className="AppContainer">
+          <ViewportProvider>
+            <Routes/>
+          </ViewportProvider>
+      </div>
+  )
 }
 
-export default App;
+export default withRouter(App)
