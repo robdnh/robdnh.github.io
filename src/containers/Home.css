@@ -10,7 +10,20 @@
 .about, .Projects {
   margin: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 50px;
   width: 60vh;
   margin-bottom: 50px;
+}
+
+.Contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.octocat {
+  height: 50px;
+  width: 50px;
 }
