@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { CommandBar } from 'office-ui-fabric-react/lib/CommandBar';
-import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
+import { initializeIcons, registerIcons } from 'office-ui-fabric-react/lib/Icons';
 import { useHistory } from 'react-router-dom';
 import { useViewport } from '../ViewportProvider';
+import { Octocat } from '../media/GitHub-Mark-64px.png'
 
 initializeIcons();
 
@@ -19,6 +20,12 @@ function NavBar(props) {
       cacheKey: 'myCacheKey',
       iconProps: { iconName: 'Home' },
       onClick: () => history.push("/"),
+    },
+    {
+      key: 'LinkedIn',
+      text: 'Linkedin',
+      iconProps: { iconName: 'LinkedInLogo' },
+      onClick: () => window.open('https://www.linkedin.com/in/rdii-/', '_blank')
     },
     {
       key: 'LinkedIn',

@@ -7,3 +7,10 @@
   height: 40vh
 }
 
+.about, .Projects {
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  width: 60vh;
+  margin-bottom: 50px;
+}
