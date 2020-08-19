@@ -54,11 +54,8 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
@@ -103,9 +100,9 @@ npm start
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This is really just a pared down version of a web application I built for the purposes of testing cloud services integrations in AWS. (See feature-rich example site in [serverless-rekog-widget](https://github.com/robdnh/serverless-rekog-widget))
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Feel free to take and use for other purposes. I would appreciate acknowledgement if this is useful to others looking to quickly deploy a minimalist design website.
 
 
 <!-- LICENSE -->
