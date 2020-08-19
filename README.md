@@ -34,10 +34,8 @@
   <p align="center">
     A simple portfolio template built with React and utilizing GitHub Pages for hosting.
     <br />
-    <a href="https://github.com/robdnh/robdnh.github.io">
     <br />
-    <br />
-    <a href="robdnh.github.io">View Site</a>
+    <a href="https://robdnh.github.io">View Site</a>
     ·
     <a href="https://github.com/robdnh/robdnh.github.io/issues">Report Bug</a>
   </p>
