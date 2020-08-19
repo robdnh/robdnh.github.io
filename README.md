@@ -37,7 +37,7 @@
     <a href="https://github.com/robdnh/robdnh.github.io">
     <br />
     <br />
-    <a href="https://github.com/robdnh/robdnh.github.io">View Site</a>
+    <a href="robdnh.github.io">View Site</a>
     ·
     <a href="https://github.com/robdnh/robdnh.github.io/issues">Report Bug</a>
   </p>
