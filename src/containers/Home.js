@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Auth } from 'aws-amplify';
 import NavBar from '../components/NavBar';
 import { Text } from '@fluentui/react';
 import { Separator } from 'office-ui-fabric-react/lib/Separator';
@@ -9,7 +8,6 @@ import { Icon } from 'office-ui-fabric-react/lib/Icon';
 import Octocat from '../media/octocat.png'
 import { initializeIcons } from '@uifabric/icons';
 import { mergeStyles, mergeStyleSets } from 'office-ui-fabric-react/lib/Styling';
-import { IconButton } from 'office-ui-fabric-react';
 
 initializeIcons();
 

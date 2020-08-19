@@ -4,27 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter } from "react-router-dom";
-import Amplify from "aws-amplify";
-import config from "./config";
 import { createTheme, Customizations } from '@fluentui/react';
-
-Amplify.configure({
-    Auth: {
-        mandatorySignIn: true,
-        region: config.cognito.REGION,
-        userPoolId: config.cognito.USER_POOL_ID,
-        identityPoolId: config.cognito.IDENTITY_POOL_ID,
-        userPoolWebClientId: config.cognito.APP_CLIENT_ID
-    },
-    Storage: {
-        region: config.s3.REGION,
-        bucket: config.s3.BUCKET,
-        identityPoolId: config.cognito.IDENTITY_POOL_ID
-    },
-    aws_appsync_graphqlEndpoint: config.appSync.ENDPOINT,
-    aws_appsync_region: config.appSync.REGION,
-    aws_appsync_authenticationType: config.appSync.AUTHTYPE,
-});
 
 const myTheme = createTheme({
   palette: {

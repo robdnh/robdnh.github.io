@@ -5,20 +5,16 @@
   "homepage": "http://robdnh.github.io",
   "dependencies": {
     "-": "0.0.1",
-    "@aws-amplify/ui-components": "^0.6.1",
-    "@aws-amplify/ui-react": "^0.2.14",
     "@fluentui/react": "^7.128.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@uifabric/fluent-theme": "^7.1.130",
-    "aws-amplify": "^3.0.23",
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-webcam": "^5.2.0",
     "save-dev": "0.0.1-security"
   },
   "scripts": {

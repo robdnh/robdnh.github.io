@@ -28,23 +28,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/robdnh/robdnh.github.io">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Portfolio Website</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A simple portfolio template built with React and utilizing GitHub Pages for hosting.
     <br />
-    <a href="https://github.com/robdnh/robdnh.github.io"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/robdnh/robdnh.github.io">
     <br />
     <br />
-    <a href="https://github.com/robdnh/robdnh.github.io">View Demo</a>
+    <a href="https://github.com/robdnh/robdnh.github.io">View Site</a>
     ·
     <a href="https://github.com/robdnh/robdnh.github.io/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/robdnh/robdnh.github.io/issues">Request Feature</a>
   </p>
 </p>
 
@@ -72,17 +67,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`robdnh`, `repo`, `twitter_handle`, `email`
-
-
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [React JS](https://reactjs.org/)
+* [Microsoft Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
+* [React Router](https://reactrouter.com/)
 
 
 <!-- GETTING STARTED -->
