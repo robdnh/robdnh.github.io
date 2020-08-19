@@ -151,8 +151,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -160,31 +158,9 @@ Rob D.
 
 Project Link: [https://github.com/robdnh/robdnh.github.io](https://github.com/robdnh/robdnh.github.io)
 
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 * []()
 * []()
 * []()
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: 
-[contributors-url]: 
-[forks-shield]: 
-[forks-url]: 
-[stars-shield]: 
-[stars-url]: 
-[issues-shield]: 
-[issues-url]: 
-[license-shield]: 
-[license-url]: 
-[linkedin-shield]: 
-[linkedin-url]: 
-[product-screenshot]: 
