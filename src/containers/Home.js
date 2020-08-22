@@ -42,7 +42,7 @@ export default function HomePage(props) {
             <Separator>About</Separator>
             <div className="about">
               <Text block>A career in public service has given me unique opportunities to understand, appreciate,</Text>
-              <Text block>and overcome challenges in Public Sector IT Operations and Engineering space.</Text>
+              <Text block>and overcome challenges in IT Operations and Engineering.</Text>
               <Text block>This page highlights a few of my personal hobby projects.</Text>
             </div>
             <Separator>Projects</Separator>
