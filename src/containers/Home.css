@@ -7,7 +7,7 @@
   height: 40vh
 }
 
-.about, .Projects {
+.about {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -17,10 +17,20 @@
   margin-bottom: 50px;
 }
 
+.Projects {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
 .Contact {
+  margin: auto;
   display: flex;
-  justify-content: space-around;
-  margin: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  width: 60vh;
+  margin-bottom: 50px;
 }
 
 .octocat {

@@ -1,0 +1,10 @@
+query {
+  repositoryOwner(login:"robdnh"){
+    repositories( first: 40 ) {
+      nodes{
+        name
+        projectsUrl
+      }
+    }
+  }
+}

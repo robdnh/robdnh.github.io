@@ -1,0 +1,37 @@
+.boxContent {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 25px;
+  transition: .3s;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  width: 150px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxContent:hover, .icon:hover {
+  transform: scale(1.03);
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}

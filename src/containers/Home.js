@@ -8,6 +8,7 @@ import { Icon } from 'office-ui-fabric-react/lib/Icon';
 import Octocat from '../media/octocat.png'
 import { initializeIcons } from '@uifabric/icons';
 import { mergeStyles, mergeStyleSets } from 'office-ui-fabric-react/lib/Styling';
+import { GitHubPortfolio } from '../components/GitHubPortfolio';
 
 initializeIcons();
 
@@ -25,15 +26,8 @@ const iconClass = mergeStyles({
   margin: '0 25px',
 });
 
-const iconStyle = {
-  root: {
-    fontSize: '30px'
-  }
-}
 const classNames = mergeStyleSets({
-  deepSkyBlue: [{ color: 'deepskyblue' }, iconClass],
   black: [{ color: 'black' }, iconClass],
-  salmon: [{ color: 'salmon' }, iconClass],
 });
 
 export default function HomePage(props) {
@@ -49,10 +43,11 @@ export default function HomePage(props) {
             <div className="about">
               <Text block>A career in public service has given me unique opportunities to understand, appreciate,</Text>
               <Text block>and overcome challenges in Public Sector IT Operations and Engineering space.</Text>
+              <Text block>This page highlights a few of my personal hobby projects.</Text>
             </div>
             <Separator>Projects</Separator>
             <div className="Projects">
-              <Text block>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text>
+              <GitHubPortfolio />
             </div>
             <Separator>Contact</Separator>
             <div className="Contact">
